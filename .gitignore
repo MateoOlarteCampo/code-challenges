@@ -1,0 +1,66 @@
+# Dependency directories
+node_modules/
+.next/
+out/
+
+# Build files
+dist/
+build/
+
+# Cache files
+.cache/
+
+# Environment variables
+.env*.local
+.env
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local development files
+.DS_Store
+*.swp
+*.swo
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Testing
+coverage/
+.nyc_output/
+
+# Yarn/NPM/PNPM files
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Next.js specific
+.next/
+.next/cache/
+
+# Serverless functions
+.serverless/
+
+# Optional: Exclude local development files
+.env.development
+.env.test
+.env.production
+
+# Optional: Exclude local configuration files
+.next.config.local.js
